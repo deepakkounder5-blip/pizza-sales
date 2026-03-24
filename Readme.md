@@ -63,16 +63,19 @@ WordCloud: Specifically used for generating word clouds, often to visualize text
 1. Clone this repository:
 
 Bash
+
 git clone https://github.com/your-username/pizza-sales-analysis.git
 
 2. Install the required dependencies:
 
 Bash
+
 pip install pandas numpy matplotlib seaborn plotly wordcloud
 
 3. Open and run the Jupyter Notebook:
 
 Bash
+
 jupyter notebook "Pizza Sales Analysis Project.ipynb"
 
 📈 Key Insights (Sample)
