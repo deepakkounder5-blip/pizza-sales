@@ -1,6 +1,6 @@
 🍕 Pizza Sales Analysis Project
 
-📌 Project Overview
+📌 Project Overview:-
 
 This project provides a comprehensive exploratory data analysis (EDA) of pizza sales records to identify trends, popular products, and revenue drivers. Using Python-based data science libraries, the analysis explores customer preferences across different pizza categories, sizes, and ingredients.
 
@@ -42,17 +42,35 @@ Revenue analysis by pizza category (Classic, Veggie, Supreme, Chicken).
 
 Ingredient frequency analysis using Word Clouds.
 
+The Pizza Sales Analysis Project utilizes several Python libraries and tools for data processing, analysis, and visualization.
+
+Core Libraries
+
+NumPy: Used for linear algebra and numerical operations.
+
+Pandas: The primary tool for data processing and managing CSV file I/O.
+
+Seaborn: Employed for statistical data visualization.
+
+Matplotlib (pyplot): Used for creating static and basic visualizations, often with specific styles like Solarize_Light2.
+
+Plotly (graph_objs and express): Used for generating interactive plots and complex visualizations.
+
+WordCloud: Specifically used for generating word clouds, often to visualize text data like pizza ingredients.
+
 🚀 How to Run the Project
 
-Clone this repository:
+1. Clone this repository:
 
 Bash
 git clone https://github.com/your-username/pizza-sales-analysis.git
-Install the required dependencies:
+
+2. Install the required dependencies:
 
 Bash
 pip install pandas numpy matplotlib seaborn plotly wordcloud
-Open and run the Jupyter Notebook:
+
+3. Open and run the Jupyter Notebook:
 
 Bash
 jupyter notebook "Pizza Sales Analysis Project.ipynb"
